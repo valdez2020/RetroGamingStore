@@ -1,0 +1,22 @@
+.header{
+    background-color: #111;
+    padding: 1.2rem 2rem;
+    border-bottom: 2px solid #fc5f38;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.logo{
+    color: #fc5f38;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

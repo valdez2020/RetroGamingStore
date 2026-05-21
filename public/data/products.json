@@ -1,0 +1,74 @@
+[
+  {
+    "id":23123,
+    "nombre": "The Legend of Zelda: Ocarina of Time",
+    "precio": 115430.28,
+    "stock": 17,
+    "anio_lanzamiento": 1998,
+    "descripcion": "",
+    "fotoProducto": "https://i.ibb.co/Kzh4BKWk/zelda-ocarinaoftime.png"
+  },
+  {
+    "id":1353,
+    "nombre": "The Legend of Zelda: Majora's Mask",
+    "precio": 46210.55,
+    "stock": 3,
+    "anio_lanzamiento": 2000,
+    "descripcion": "",
+    "fotoProducto": "https://i.ibb.co/DHNCyvWq/zelda-majoras-Mask.jpg"
+  },
+  {
+    "id":54353,
+    "nombre": "God of War III",
+    "precio": 129500.30,
+    "stock": 12,
+    "anio_lanzamiento": 2010,
+    "descripcion": "",
+    "fotoProducto": "https://i.ibb.co/cSJ9zT0g/god-Of-War3.jpg"
+  },
+  {
+    "id":6754,
+    "nombre": "God of War",
+    "precio": 45990.00,
+    "stock": 21,
+    "anio_lanzamiento": 2005,
+    "descripcion": "",
+    "fotoProducto": "https://i.ibb.co/mC4n1FZM/god-Of-War.jpg"
+  },
+  {
+    "id":43534,
+    "nombre": "Halo: Combat Evolved",
+    "precio": 66500.70,
+    "stock": 6,
+    "anio_lanzamiento": 2001,
+    "descripcion": "",
+    "fotoProducto": "https://i.ibb.co/GQXKnh6X/halo-combat-Evolved.jpg"
+  },
+  {
+    "id":2222,
+    "nombre": "Halo 2",
+    "precio": 45900.00,
+    "stock": 49,
+    "anio_lanzamiento": 2004,
+    "descripcion": "",
+    "fotoProducto": "https://i.ibb.co/ZztjttrV/halo2.jpg"
+  },
+  {
+    "id":42345,
+    "nombre": "The Witcher: Enhanced Edition",
+    "precio": 58990.44,
+    "stock": 41,
+    "anio_lanzamiento": 2008,
+    "descripcion": "",
+    "fotoProducto": "https://i.ibb.co/tT8Kr1rH/the-Witcher.jpg"
+  },
+  {
+    "id":454,
+    "nombre": "resident evil 2",
+    "precio": 73800.00,
+    "stock": 13,
+    "anio_lanzamiento": 1997,
+    "descripcion": "",
+    "fotoProducto": "https://i.ibb.co/TBS0vRVd/resident-Evil2.jpg"
+  }
+]

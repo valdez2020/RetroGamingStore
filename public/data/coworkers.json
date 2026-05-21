@@ -1,0 +1,35 @@
+[
+    {
+        "id":1231,
+        "nombre":"Frank Doe",
+        "cargo":"Gerente de producto",
+        "email":"FrankDoe@retro.com",
+        "fotoPerfil":"/profilePhotos/FrankDoe.png"
+
+    },
+    {
+        "id":4232,
+        "nombre":"Agatha Christie",
+        "cargo":"Diseñadora UX/UI",
+        "email":"AgathaChristie@retro.com",
+        "fotoPerfil":"/profilePhotos/AgathaChristie.png"
+
+    },
+    {
+        "id":1256,
+        "nombre":"José Valdez",
+        "cargo":"Desarrollador Front-End",
+        "email":"JoseValdez@retro.com",
+        "fotoPerfil":"/profilePhotos/JoseValdez.jpg"
+
+    },
+    {
+        "id":7563,
+        "nombre":"Virginia Fernandez",
+        "cargo":"Desarrolladora Back-End",
+        "email":"VirginiaFernandez@retro.com",
+        "fotoPerfil":"/profilePhotos/VirginiaFernandez.jpg"
+
+    
+    }
+]

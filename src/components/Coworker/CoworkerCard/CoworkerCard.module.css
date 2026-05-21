@@ -1,0 +1,102 @@
+.card{
+    width: 280px;
+
+    background-color: #111;
+    border: 1px solid #222;
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2rem 1.5rem;
+
+    text-align: center;
+
+    color: white;
+
+    transition: .25s ease;
+
+    box-shadow: 0px 0px 12px rgba(0,0,0,.35);
+}
+
+.card:hover{
+    transform: translateY(-5px);
+
+    border-color: #00ff99;
+
+    box-shadow: 0px 0px 20px rgba(0,255,153,.2);
+}
+
+.profileImage{
+    width: 130px;
+    height: 130px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 3px solid #00ff99;
+
+    margin-bottom: 1.5rem;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+
+    width: 100%;
+}
+
+.name{
+    color: #00ff99;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.role{
+    color: #f1f1f1;
+
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.email{
+    color: #999;
+
+    font-size: .95rem;
+
+    word-break: break-word;
+}
+
+.contactButton{
+    margin-top: 1rem;
+
+    background-color: transparent;
+
+    border: 1px solid #00ff99;
+
+    color: #00ff99;
+
+    padding: .8rem 1rem;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    transition: .2s ease;
+}
+
+.contactButton:hover{
+    background-color: #00ff99;
+
+    color: #111;
+
+    transform: scale(1.03);
+}

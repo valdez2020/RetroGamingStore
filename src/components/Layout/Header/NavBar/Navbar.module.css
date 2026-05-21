@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.navList{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navList a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .2s ease;
+}
+
+.navList a:hover{
+    color: #fc5f38;
+    transform: scale(1.05);
+}
