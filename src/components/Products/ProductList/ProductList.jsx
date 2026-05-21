@@ -1,4 +1,5 @@
 import { ProductItem } from "../ProductItem/ProductItem.jsx";
+import { Link } from 'react-router-dom';
 import styles from './ProductList.module.css';
 export function ProductList({products}){
     if (products.length === 0) {
@@ -13,9 +14,11 @@ export function ProductList({products}){
                 <article key={product.id}  className={styles.productCardWrapper}>
                     <ProductItem {...product}/>
 
+                <Link  to={`/producto/${product.id}`}>
                     <button className={styles.detailsButton}>
                         ver más
                     </button>
+                </Link>
                 </article>
 
 

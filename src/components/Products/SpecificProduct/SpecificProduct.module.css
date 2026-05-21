@@ -1,91 +1,269 @@
-.productDetail{
-    display: flex;
-    gap: 3rem;
-    align-items: center;
-    justify-content: center;
+.productPage{
+    min-height: 100vh;
 
-    width: 90%;
-    max-width: 1200px;
+    background-color: #0a0a0a;
 
-    margin: 4rem auto;
     padding: 2rem;
 
+    color: white;
+}
+
+
+/* BREADCRUMB */
+
+.breadcrumb{
+    max-width: 1400px;
+
+    margin: auto auto 1rem auto;
+
+    display: flex;
+    gap: .6rem;
+
+    color: #00ff99;
+
+    font-size: .95rem;
+
+    opacity: .8;
+}
+
+
+/* CONTENEDOR PRINCIPAL */
+
+.productContainer{
+    max-width: 1400px;
+
+    margin: auto;
+
     background-color: #111;
-    border: 1px solid #222;
+
+    border: 1px solid #1f1f1f;
+
+    border-radius: 24px;
+
+    padding: 2.5rem;
+
+    display: flex;
+    gap: 3rem;
+
+    box-shadow:
+    0px 0px 25px rgba(0,0,0,.4),
+    0px 0px 8px rgba(0,255,153,.08);
+}
+
+
+/* GALERÍA */
+
+.gallerySection{
+    flex: 2;
+
+    display: flex;
+
+    gap: 1rem;
+}
+
+.mainImageContainer{
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #181818;
+
     border-radius: 20px;
 
-    color: white;
-
-    box-shadow: 0px 0px 15px rgba(0,0,0,.4);
+    padding: 2rem;
 }
 
-.productImage{
-    width: 400px;
-    height: 500px;
+.mainImage{
+    width: 100%;
+    max-width: 500px;
 
-    object-fit: cover;
-
-    border-radius: 16px;
-
-    border: 2px solid #00ff99;
+    object-fit: contain;
 }
 
-.productInfo{
+
+/* INFO */
+
+.infoSection{
+    flex: 1;
+
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 
-    max-width: 500px;
+    gap: 1rem;
+}
+
+.condition{
+    color: #888;
+
+    font-size: .95rem;
 }
 
 .productTitle{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+
     color: #00ff99;
-    line-height: 1.2;
+
+    line-height: 1.3;
+
+    text-shadow: 0px 0px 8px rgba(0,255,153,.2);
 }
 
-.productYear{
+.releaseYear{
     color: #aaa;
+
+    font-size: .95rem;
+}
+
+.price{
+    font-size: 3rem;
+
+    color: white;
+
+    font-weight: bold;
+}
+
+.installments{
+    color: #00ff99;
+
     font-size: 1rem;
 }
 
-.productPrice{
-    font-size: 2rem;
+
+/* STOCK */
+
+.stockContainer{
+    display: flex;
+
+    gap: .5rem;
+
+    margin-top: .5rem;
+}
+
+.stockLabel{
+    color: #bbb;
+
     font-weight: bold;
+}
+
+.stockValue{
     color: #00ff99;
 }
 
-.productStock{
-    color: #f1f1f1;
-    font-size: 1rem;
+
+/* BOTONES */
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+
+    margin-top: 1rem;
 }
 
-.productDescription{
-    color: #ccc;
-    line-height: 1.7;
-    font-size: 1rem;
-}
+.buyButton,
+.cartButton{
+    width: 100%;
 
-.buyButton{
-    width: fit-content;
+    padding: 1rem;
 
-    background-color: #00ff99;
-    color: #111;
+    border-radius: 14px;
 
     border: none;
-    border-radius: 10px;
-
-    padding: 1rem 1.5rem;
-
-    font-size: 1rem;
-    font-weight: bold;
 
     cursor: pointer;
 
-    transition: .2s ease;
+    font-size: 1rem;
+
+    font-weight: bold;
+
+    transition: .25s ease;
+}
+
+.buyButton{
+    background-color: #00ff99;
+
+    color: #111;
 }
 
 .buyButton:hover{
     background-color: #00cc7a;
-    transform: scale(1.03);
+
+    transform: translateY(-2px);
+
+    box-shadow: 0px 0px 15px rgba(0,255,153,.3);
+}
+
+.cartButton{
+    background-color: transparent;
+
+    border: 2px solid #00ff99;
+
+    color: #00ff99;
+}
+
+.cartButton:hover{
+    background-color: #00ff99;
+
+    color: #111;
+
+    transform: translateY(-2px);
+}
+
+
+/* DESCRIPCIÓN */
+
+.descriptionSection{
+    max-width: 1400px;
+
+    margin: 2rem auto;
+
+    background-color: #111;
+
+    border: 1px solid #1f1f1f;
+
+    border-radius: 24px;
+
+    padding: 2.5rem;
+
+    box-shadow:
+    0px 0px 25px rgba(0,0,0,.35),
+    0px 0px 8px rgba(0,255,153,.05);
+}
+
+.descriptionSection h2{
+    color: #00ff99;
+
+    margin-bottom: 1.5rem;
+
+    font-size: 2rem;
+}
+
+.descriptionSection p{
+    color: #ccc;
+
+    line-height: 1.9;
+
+    font-size: 1.05rem;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 950px){
+
+    .productContainer{
+        flex-direction: column;
+    }
+
+    .productTitle{
+        font-size: 1.8rem;
+    }
+
+    .price{
+        font-size: 2.3rem;
+    }
+
 }

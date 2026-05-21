@@ -18,7 +18,7 @@
 .formTitle{
     text-align: center;
 
-    color: #00ff99;
+    color: #ff542a;
 
     font-size: 2rem;
 
@@ -65,7 +65,7 @@
 .input:focus{
     outline: none;
 
-    border-color: #00ff99;
+    border-color: #ff542a;
 
     box-shadow: 0px 0px 10px rgba(0,255,153,.25);
 }
@@ -77,7 +77,7 @@
 .submitButton{
     margin-top: 1rem;
 
-    background-color: #00ff99;
+    background-color: #ff542a;
 
     color: #111;
 
@@ -95,7 +95,7 @@
 }
 
 .submitButton:hover{
-    background-color: #00cc7a;
+    background-color: #ff3b0a;
 
     transform: scale(1.02);
 }
@@ -117,7 +117,7 @@
 }
 
 .successMessage{
-    color: #00ff99;
+    color: #ff542a;
 
     text-align: center;
 

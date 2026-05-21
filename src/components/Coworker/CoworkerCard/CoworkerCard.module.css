@@ -25,7 +25,7 @@
 .card:hover{
     transform: translateY(-5px);
 
-    border-color: #00ff99;
+    border-color: #ff542a;
 
     box-shadow: 0px 0px 20px rgba(0,255,153,.2);
 }
@@ -38,7 +38,7 @@
 
     border-radius: 50%;
 
-    border: 3px solid #00ff99;
+    border: 3px solid #ff542a;
 
     margin-bottom: 1.5rem;
 }
@@ -52,7 +52,7 @@
 }
 
 .name{
-    color: #00ff99;
+    color: #ff542a;
 
     font-size: 1.5rem;
     font-weight: bold;
@@ -78,9 +78,9 @@
 
     background-color: transparent;
 
-    border: 1px solid #00ff99;
+    border: 1px solid #ff542a;
 
-    color: #00ff99;
+    color: #ff542a;
 
     padding: .8rem 1rem;
 
@@ -94,7 +94,7 @@
 }
 
 .contactButton:hover{
-    background-color: #00ff99;
+    background-color: #ff542a;
 
     color: #111;
 

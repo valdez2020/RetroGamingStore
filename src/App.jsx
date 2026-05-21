@@ -6,6 +6,7 @@ import { ProductFormContainer } from './components/Form/ProductFormContainer.jsx
 import { ProductListContainer } from './components/Products/ListContainer/ProductListContainer.jsx';
 import { CoworkerContainer } from './components/Coworker/CoworkerContainer.jsx';
 import { ProductItem } from './components/Products/ProductItem/ProductItem.jsx';
+import { SpecificProduct } from './components/Products/SpecificProduct/SpecificProduct.jsx';
 import { Home } from './components/Layout/Home/Home.jsx';
 import './App.css'
 
@@ -17,6 +18,7 @@ function App() {
         
         <Route path='/' element ={<Home/>}/>
         <Route path='/catalogo' element={<ProductListContainer/>} />
+        <Route path='/producto/:id' element={<SpecificProduct/>}/>
         <Route path='/alta-producto' element={<ProductFormContainer/>} />
         <Route path='/nuestro-equipo' element={<CoworkerContainer/>}/>
         

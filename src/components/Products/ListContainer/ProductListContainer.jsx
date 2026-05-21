@@ -28,7 +28,7 @@ useEffect(()=>{
                 .catch((err)=> setError(err.message))
                 .finally(()=>setCargando(false));
 
-},[])
+},[]);
 
     return(
             <section className={styles.container}>

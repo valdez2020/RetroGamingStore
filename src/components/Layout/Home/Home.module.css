@@ -42,7 +42,7 @@
 
 .title{
     font-size: 5rem;
-    color: #00ff99;
+    color: #ff542a;
 
     margin-bottom: 1rem;
 
@@ -81,21 +81,21 @@
 }
 
 .primaryButton{
-    background-color: #00ff99;
+    background-color: #ff542a;
     color: #111;
 }
 
 .primaryButton:hover{
-    background-color: #00cc7a;
+    background-color: #ff3300;
 }
 
 .secondaryButton{
-    border: 1px solid #00ff99;
-    color: #00ff99;
+    border: 1px solid #ff542a;
+    color: #ff542a;
 }
 
 .secondaryButton:hover{
-    background-color: #00ff99;
+    background-color: #ff3300;
     color: #111;
 }
 
@@ -130,11 +130,11 @@
 .featureCard:hover{
     transform: translateY(-5px);
 
-    border-color: #00ff99;
+    border-color: #ff542a;
 }
 
 .featureCard h2{
-    color: #00ff99;
+    color: #ff542a;
 
     margin-bottom: 1rem;
 }
@@ -151,7 +151,7 @@
 
     font-size: 2.5rem;
 
-    color: #00ff99;
+    color: #ff542a;
 
     margin-bottom: 3rem;
 }
@@ -181,7 +181,7 @@
 .highlightCard:hover{
     transform: translateY(-5px);
 
-    border-color: #00ff99;
+    border-color: #ff542a;
 }
 
 .highlightCard img{
@@ -192,7 +192,7 @@
 }
 
 .highlightCard h3{
-    color: #00ff99;
+    color: #ff542a;
 
     padding: 1rem 1rem .5rem;
 }

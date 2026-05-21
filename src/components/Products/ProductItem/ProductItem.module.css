@@ -18,7 +18,7 @@
 .productCard:hover{
     transform: translateY(-5px);
 
-    border-color: #00ff99;
+    border-color: #fc5f38;
 
     box-shadow: 0px 0px 20px rgba(0,255,153,.2);
 }
@@ -64,14 +64,14 @@
 }
 
 .price{
-    color: #00ff99;
+    color: #fc5f38;
 
     font-size: 1.3rem;
     font-weight: bold;
 }
 
 .button{
-    background-color: #00ff99;
+    background-color: #fc5f38;
     color: #111;
 
     border: none;
@@ -87,7 +87,7 @@
 }
 
 .button:hover{
-    background-color: #00cc7a;
+    background-color: #fb4113;
 
     transform: scale(1.02);
 }

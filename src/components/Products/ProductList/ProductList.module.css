@@ -15,8 +15,8 @@
 
 .detailsButton{
     background-color: transparent;
-    border: 1px solid #00ff99;
-    color: #00ff99;
+    border: 1px solid #fc5f38;
+    color: #fc5f38;
     padding: .8rem 1rem;
     border-radius: 10px;
     cursor: pointer;
@@ -25,7 +25,7 @@
 }
 
 .detailsButton:hover{
-    background-color: #00ff99;
+    background-color: #ff4314;
     color: #111;
 }
 
